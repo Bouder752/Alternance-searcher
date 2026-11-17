@@ -1,0 +1,130 @@
+# Profil de recherche d'alternance : modifie ce fichier pour ajuster l'agent.
+# Aucune donnée personnelle (téléphone, e-mail…) ne doit figurer ici.
+
+profil:
+  resume: >
+    Master « European Digital and Sustainable Business » (EM Strasbourg / FHNW Basel /
+    HSO Offenburg), M2 en alternance de 12 mois à partir de septembre 2027.
+    Trilingue français / allemand C2 / anglais C1. Supply chain, gestion de projet,
+    RSE, environnement international.
+  debut_souhaite: "2027-09-01"
+  niveau_diplome: 7          # 7 = Bac+5 (nomenclature européenne)
+
+localisation:
+  ville: Strasbourg
+  latitude: 48.5734
+  longitude: 7.7521
+  rayon_km: 50
+
+# Groupes de mots-clés : un groupe rapporte ses points une seule fois
+# (x2 si le mot-clé apparaît dans l'intitulé du poste).
+mots_cles:
+  - groupe: Supply chain & planification
+    poids: 20
+    termes: [supply chain, planification, planificateur, planificatrice, planning, planner,
+             demand planner, demand planning, supply planner, s&op, sop, approvisionnement,
+             approvisionneur, ordonnancement, ordonnanceur, gestion des flux, logistique,
+             logistics, prévisions, forecast, plan de production, stocks, distribution excellence,
+             export operations, customer service, adv]
+  - groupe: Chargé de mission / gestion de projet
+    poids: 15
+    termes: [chargé de mission, chargée de mission, chargé(e) de mission, chef de projet,
+             cheffe de projet, gestion de projet, project manager, project management, pmo,
+             coordinateur, coordinatrice, business analyst, amélioration continue,
+             chargé de projet, chargée de projet, assistant chef de projet]
+  - groupe: RSE & développement durable
+    poids: 10
+    termes: [rse, csr, développement durable, sustainability, sustainable, durabilité,
+             décarbonation, bilan carbone, carbone, économie circulaire, environnemental,
+             environnementale, management environnemental, transition écologique, eco-conception, éco-conception, esg,
+             achats responsables, impact environnemental, iso 14001]
+  - groupe: International
+    poids: 8
+    termes: [international, internationale, export, import, allemand, allemande, german,
+             deutsch, franco-allemand, allemagne, suisse, trinational, européen, européenne,
+             anglais courant, bilingue, trilingue, emea, business international]
+  - groupe: Débouchés du master EDSB
+    # Liste « Job prospects » de la fiche officielle du master EDSB (EM Strasbourg)
+    poids: 6
+    termes: [bid manager, appel d'offres, appels d'offres, business manager,
+             chef de projet industriel, contrats industriels, éco-conception, export manager,
+             responsable export, transition technologique, transformation digitale,
+             marketing durable, achats, acheteur, acheteuse, procurement, sourcing]
+  - groupe: Compétences
+    poids: 3
+    termes: [kpi, reporting, power bi, excel, tableau de bord, tableaux de bord, analyse de données,
+             data, lean, sap, erp, crm]
+
+# Secteurs prioritaires (cherchés dans le secteur d'activité de l'entreprise et dans le texte)
+secteurs:
+  - nom: Pharmaceutique / santé
+    poids: 10
+    termes: [pharma, pharmaceutique, médicament, médicaments, laboratoire, santé, biotech,
+             dispositifs médicaux, lilly, merck, novartis, sanofi, septodont, roche, biogen]
+  - nom: Sport
+    poids: 9
+    termes: [sport, sportif, sportive, adidas, decathlon, puma, nike, salomon]
+  - nom: Logistique / transport
+    poids: 8
+    termes: [logistique, entreposage, transport, fret, messagerie, geodis, kuehne, schenker,
+             dachser, rhenus, fm logistic, dhl, stef]
+  - nom: Agroalimentaire
+    poids: 6
+    termes: [alimentaire, agroalimentaire, brasserie, boissons, heineken, kronenbourg,
+             carlsberg, mars, lactalis, stoeffler, nestlé, danone]
+  - nom: Industrie (secteurs recruteurs du master EDSB)
+    poids: 4
+    termes: [industrie, industriel, automobile, aéronautique, chimie, chimique, électronique,
+             métallurgie, biens d'équipement, domotique, équipements électriques,
+             électrique, électriques, fabrication]
+
+# Grands groupes de la région (bonus si l'entreprise correspond)
+entreprises_cibles: [Lilly, Merck, Novartis, Sanofi, Septodont, Roche, Hager, Heineken,
+                     Kronenbourg, Carlsberg, Mars, Adidas, Decathlon, Puma, Kuhn, Lohr, Siemens,
+                     Alstom, Safran, Rhenus, Geodis, Kuehne, Schenker, Dachser, FM Logistic, IKEA,
+                     Lidl, Bosch, Schaeffler, Punch, Socomec, Würth, Wurth, Arte, Electricité de Strasbourg,
+                     ES Energies, Sodexo, Stoeffler, Lactalis, Roquette, Clestra, Sotralentz, Haemmerlin,
+                     Tereos, Coca-Cola, Leclerc, Auchan, Carrefour]
+
+# Taille minimale (nombre de salariés) pour le bonus « grande entreprise »
+grande_entreprise_min: 250
+
+# Intitulés exclus d'office (commercial terrain, postes non cadres…)
+exclusions_titre: [commercial terrain, technico-commercial, technico commercial,
+                   attaché commercial, attachée commercial, commercial itinérant, vendeur,
+                   vendeuse, conseiller de vente, conseillère de vente, conseiller commercial,
+                   conseillère commerciale, vrp, téléconseiller, téléprospecteur, cariste,
+                   préparateur de commandes, préparatrice de commandes, magasinier, magasinière,
+                   chauffeur, livreur, manutentionnaire, employé de rayon, hôte de caisse]
+
+# Si l'intitulé contient « commercial » ET la description un de ces mots → exclu
+indices_terrain: [terrain, itinérant, itinérante, tournée, tournées, déplacements quotidiens,
+                  prospection physique, porte-à-porte]
+
+# Mots indiquant un contrat en alternance (sources généralistes)
+termes_alternance: [alternance, alternant, alternante, apprenti, apprentie, apprentissage,
+                    contrat de professionnalisation, work-study, apprenticeship]
+
+score_minimum: 25
+
+# La bonne alternance : codes ROME interrogés (un appel par code)
+lba_romes:
+  N1301: Conception et organisation de la chaîne logistique
+  N1302: Direction de site logistique
+  H1401: Management et ingénierie gestion industrielle et logistique
+  M1101: Achats
+  M1402: Conseil en organisation et management d'entreprise
+  M1403: Études et prospectives socio-économiques
+  H1302: Management et ingénierie Hygiène Sécurité Environnement (HSE) industriels
+  M1707: Stratégie commerciale
+  M1703: Management et gestion de produit
+  D1401: Assistanat commercial (ADV / export)
+  K1802: Développement local
+
+# Liens de recherche manuelle ajoutés au rapport (pas de collecte automatique : CGU)
+recherches_manuelles:
+  - [supply chain alternance, Strasbourg]
+  - [planification alternance, Strasbourg]
+  - [chargé de mission alternance, Strasbourg]
+  - [RSE alternance, Strasbourg]
+  - [export international alternance, Strasbourg]

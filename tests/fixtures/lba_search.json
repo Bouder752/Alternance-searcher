@@ -1,0 +1,54 @@
+{
+  "jobs": [
+    {
+      "identifier": {"id": "job-1", "partner_label": "La bonne alternance", "partner_job_id": "job-1"},
+      "workplace": {"name": "LILLY FRANCE", "brand": "Lilly", "size": "1000-1999", "website": null, "siret": "00000000000001",
+        "description": "Site de production pharmaceutique international",
+        "location": {"address": "2 rue du Colonel Lilly 67640 Fegersheim", "geopoint": {"type": "Point", "coordinates": [7.680, 48.490]}},
+        "domain": {"idcc": null, "opco": null, "naf": {"code": "2120Z", "label": "Fabrication de préparations pharmaceutiques"}}},
+      "apply": {"url": "https://exemple.org/offre/job-1", "phone": null, "recipient_id": "r1"},
+      "contract": {"start": "2027-09-01T00:00:00.000Z", "duration": 12, "type": ["Apprentissage"], "remote": null},
+      "offer": {"title": "Alternant Supply Chain Planner (F/H)", "description": "Planification de la production, suivi des KPI, reporting, échanges en anglais et allemand avec les sites européens.",
+        "desired_skills": ["Excel", "Power BI"], "to_be_acquired_skills": [], "access_conditions": [], "rome_codes": ["N1301"],
+        "publication": {"creation": "2026-11-10T08:00:00.000Z", "expiration": null},
+        "target_diploma": {"european": "7", "label": "Master, titre ingénieur..."}, "status": "Active"}
+    },
+    {
+      "identifier": {"id": "job-2", "partner_label": "France Travail"},
+      "workplace": {"name": "DISTRIB SA", "size": "500-999", "location": {"address": "67000 Strasbourg", "geopoint": {"type": "Point", "coordinates": [7.75, 48.57]}}, "domain": {"naf": {"label": "Commerce de gros"}}},
+      "apply": {"url": "https://exemple.org/offre/job-2"},
+      "contract": {"start": null, "type": ["Apprentissage"]},
+      "offer": {"title": "Alternance Commercial B2B", "description": "Prospection terrain auprès des clients du Bas-Rhin, tournées quotidiennes.",
+        "publication": {"creation": "2026-11-12T08:00:00.000Z"}, "target_diploma": {"european": "6", "label": "Licence"}}
+    },
+    {
+      "identifier": {"id": "job-3", "partner_label": "France Travail"},
+      "workplace": {"name": "TRANSPORTS ALSACE", "size": "20-49", "location": {"address": "67500 Haguenau", "geopoint": {"type": "Point", "coordinates": [7.79, 48.816]}}, "domain": {"naf": {"label": "Transports routiers de fret"}}},
+      "apply": {"url": "https://exemple.org/offre/job-3"},
+      "contract": {"start": "2026-12-01T00:00:00.000Z", "type": ["Apprentissage"]},
+      "offer": {"title": "BTS Gestion des transports et logistique en alternance", "description": "Organisation des tournées.",
+        "publication": {"creation": "2026-11-01T08:00:00.000Z"}, "target_diploma": {"european": "5", "label": "BTS, DUT"}}
+    },
+    {
+      "identifier": {"id": "job-4", "partner_label": "La bonne alternance"},
+      "workplace": {"name": "ADIDAS FRANCE", "brand": "adidas", "size": "500-999", "location": {"address": "Landersheim 67700", "geopoint": {"type": "Point", "coordinates": [7.497, 48.685]}}, "domain": {"naf": {"label": "Commerce de gros d'articles de sport"}}},
+      "apply": {"url": "https://exemple.org/offre/job-4"},
+      "contract": {"start": "2027-09-01T00:00:00.000Z", "type": ["Apprentissage"]},
+      "offer": {"title": "Chargé de mission RSE en alternance", "description": "Pilotage du bilan carbone et de la démarche développement durable en lien avec l'Allemagne.",
+        "publication": {"creation": "2026-11-15T08:00:00.000Z"}, "target_diploma": {"european": "7", "label": "Master"}}
+    }
+  ],
+  "recruiters": [
+    {
+      "identifier": {"id": "rec-1"},
+      "workplace": {"name": "HAGER CONTROLS", "brand": "Hager", "size": "2000-4999", "location": {"address": "67210 Obernai", "geopoint": {"type": "Point", "coordinates": [7.482, 48.462]}}, "domain": {"naf": {"label": "Fabrication de matériel d'installation électrique"}}},
+      "apply": {"url": null}
+    },
+    {
+      "identifier": {"id": "rec-2"},
+      "workplace": {"name": "PETIT COMMERCE", "size": "0-9", "location": {"address": "67000 Strasbourg", "geopoint": {"type": "Point", "coordinates": [7.75, 48.57]}}, "domain": {"naf": {"label": "Commerce de détail"}}},
+      "apply": {"url": null}
+    }
+  ],
+  "warnings": []
+}
