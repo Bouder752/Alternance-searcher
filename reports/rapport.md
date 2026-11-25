@@ -1,4 +1,4 @@
-# Veille alternance — 2026-11-24
+# Veille alternance — 2026-11-25
 
 **0 résultats retenus, dont 0 nouveaux.** Version interactive : `reports/index.html`.
 
