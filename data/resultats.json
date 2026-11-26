@@ -1,15 +1,15 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "stats": {
   "par_source": {
    "lba": 0,
-   "connexion_emploi": 147
+   "connexion_emploi": 149
   },
   "exclues": {
-   "pas une alternance": 138,
+   "pas une alternance": 141,
    "poste commercial terrain": 4,
    "intitulé exclu": 2,
-   "lieu hors zone ou inconnu": 2,
+   "lieu hors zone ou inconnu": 1,
    "trop loin": 1
   }
  },
